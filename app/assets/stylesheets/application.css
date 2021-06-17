@@ -13,14 +13,15 @@
  *= require_tree .
  *= require_self
  */
-/**************************************************/
+
 *{
 	font-family: 'Raleway', sans-serif;
 }
+
 a.large_btn {
 	font-size: 1.1em;
 }
-/**************************************************/
+
 .red_btn {
   color: #BB2525;
   border-color: #BB2525;
@@ -46,16 +47,6 @@ a.large_btn {
 #brand-color {
   color: #8B5E3C;
 }
-/**************************************************/
-
-/* .view {
-	margin-top: 1%;
-	margin-left: 15%;
-	margin-right: 15%;
-	height: 88vh;
-	background-color: #F1F3F5;
-	border-radius: 5px;
-} */
 
 .view {
 	margin-top: 1%;
@@ -79,7 +70,7 @@ a.large_btn {
 	float: right;
 	color: #BB2525;
 }
-/**************************************************/
+
 #waiting {
 	color: #BB2525;
 	display: inline-block;
@@ -97,7 +88,7 @@ a.large_btn {
 	padding: 0.5em 1em;
 	border-radius: 2em;
 }
-/**************************************************/
+
 #chatbox {
 	display: inline-block;
 	position: relative;
@@ -106,6 +97,7 @@ a.large_btn {
 	height: 36vh;
 	margin: 3vh 0 5vh 5%;
 }
+
 #chatbox #comments {
 	display: inline-block;
 	position: relative;
@@ -116,9 +108,11 @@ a.large_btn {
 	border-radius: 0.5em;
 	font-size: 1.5em;
 }
+
 #chatbox hr {
 	margin: 0;
 }
+
 #chatbox form {
 	position: absolute;
 	bottom: 1vh;
@@ -128,19 +122,22 @@ a.large_btn {
 	border: none;
 	background: none;
 }
+
 #chatbox input {
 	background: none;
 	width: 20em;
 	border: 1px solid;
 }
+
 #chatbox input::placeholder {
 	text-align: center;
 }
+
 .delete_comment {
 	display: inline-block;
 	color: red;
 }
-/**************************************************/
+
 .y-scroll {
 	overflow-y: auto;
 	overflow-x: auto;
@@ -151,4 +148,3 @@ a.large_btn {
   clear: both;
   display: table;
 }
-/**************************************************/

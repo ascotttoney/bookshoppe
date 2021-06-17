@@ -1,5 +1,8 @@
 {
   "name": "mod2-project",
   "private": true,
-  "dependencies": {}
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.5.5",
+    "prettier": "^2.3.1"
+  }
 }

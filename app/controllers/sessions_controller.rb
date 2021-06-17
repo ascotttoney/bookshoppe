@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-
   def index
     if user_signed_in?
       render :homepage
@@ -8,11 +7,10 @@ class SessionsController < ApplicationController
     end
   end
 
-  def new
-  end
+  def new; end
 
   def create
-    @user   = User.find_by(email: params[:user].downcase)
+    @user = User.find_by(email: params[:user].downcase)
     @user ||= User.find_by(login_name: params[:user].downcase)
 
     if @user && @user.authenticate(params[:password])
@@ -23,7 +21,7 @@ class SessionsController < ApplicationController
       render :new
     end
   end
-  
+
   def destroy
     logout
     redirect_to :root

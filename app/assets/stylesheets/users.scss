@@ -1,74 +1,72 @@
 #user_card {
-	margin-top: 1%;
-	margin-left: 5%;
+  margin-top: 1%;
+  margin-left: 5%;
 
-	max-width: 30%;
-	max-height: 30%;
-	padding-top: 1.25vw;
+  max-width: 30%;
+  max-height: 30%;
+  padding-top: 1.25vw;
 }
 
 #avatar {
   max-width: 100%;
   max-height: 100%;
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 #inventory {
-	max-width: 55%;
-	margin-top: 7%;
+  max-width: 55%;
+  margin-top: 7%;
 }
 
 .inventory-scroll {
-	overflow-y: auto;
-	height: 60vh;
+  overflow-y: auto;
+  height: 60vh;
 }
 
 .users-books {
-	text-align:left;
-	margin-left: 10%;
-	font-weight: bold;
+  text-align: left;
+  margin-left: 10%;
+  font-weight: bold;
 }
 
 .book-list-line-height {
-	line-height: 160%;
+  line-height: 160%;
 }
 
 .new-user-text-box {
-	width: 100%;
-	min-width: 200px;
+  width: 100%;
+  min-width: 200px;
 }
 
 .new-user-errors {
-	display: inline;
-	float: right;
-	font-weight: bold;
-	color: #BB2525;
-	width: 250px;
+  display: inline;
+  float: right;
+  font-weight: bold;
+  color: #bb2525;
+  width: 250px;
 }
 
 .new-user-view-content {
-	padding-top: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
-	// position: static;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .new-user-submit {
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
 .new-user-errors {
-	position: relative !important;
-	display: inline-block !important;
-	float: center;
-	color: #BB2525;
-	width: auto;
+  position: relative !important;
+  display: inline-block !important;
+//   float: center;
+  color: #bb2525;
+  width: auto;
 }
 
 .new-user-cols {
-	width: 28%;
-	line-height: 18px !important;
-	// max-height: 10vh;
+  width: 28%;
+  line-height: 18px !important;
 }
